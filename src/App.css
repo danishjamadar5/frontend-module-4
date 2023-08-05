@@ -11,7 +11,7 @@ body{
 .header{
   width:100%;
   height:8vh;
-  background-color: #f05a22;
+  background-color: #da4712;
   box-shadow: 0 2px 3px 4px  #f7c9b9 ;
   display: flex;
   align-items: center;
@@ -20,7 +20,7 @@ body{
 
 .header h2{
   font-size: 1.2rem;
-  color :white;
+  color :rgb(231, 228, 228);
   padding-left: 20px;
 }
 
@@ -73,14 +73,14 @@ body{
   width: 95%;
   height:5vh;
   border-radius: 5px;
-  background-color: white;
+  background-color: rgb(210, 207, 207);
 }
 
 .search-bar button{
   border: none;
   margin-left: 15px;
   margin-top: 10px;
-  background-color: white;
+  background-color: rgb(216, 212, 212);
 }
 
 .page-side-heading{
@@ -102,7 +102,7 @@ body{
   padding: 20px;
   margin: 35px 0 35px 0;
   width:30%;
-  background-color: white;
+  background-color: rgb(218, 212, 212);
   border-radius: 10px;
 }
 
@@ -122,7 +122,7 @@ body{
  }
  
  .post-desc span{
-  color:#f05a22
+  color:#d24b19
  }
 
  .post-desc{
@@ -152,17 +152,17 @@ body{
  }
 
  .active-btn{
-  background-color: #f05a22;
+  background-color: #b5431a;
   color: white;
  }
  .inactive-btn{
-  background-color: #ffffff;
+  background-color: #e6e2e2;
   color: black;
  }
 
  .post-content .post-text{
   margin-top: 20px;
-  color:#898989;
+  color:#6c6969;
  }
 
  .post-text, .post-desc{
@@ -180,7 +180,7 @@ body{
   z-index: 1; 
   display: flex;
   justify-content: space-between;
- color:white;
+ color:rgb(231, 229, 229);
  width:100%;
 }
 
@@ -195,7 +195,7 @@ body{
   margin-right: 10px;
 }
 
- @media only screen and (max-width: 820px) {
+ @media only screen and (max-width: 768px) {
 .card-container{
   display: flex;
   flex-direction: column;
@@ -237,7 +237,7 @@ width:18vw;
   z-index: 1; 
   display: flex;
   justify-content: space-between;
-  color:white;
+  color:rgb(219, 214, 214);
   width:100%;
 }
 
