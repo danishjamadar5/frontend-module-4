@@ -39,7 +39,7 @@ const HomePage =()=>{
           <Navbar />
 
           <div className="page-content">
-            <div className="page-side-heading">Social Media For Travellers</div>
+            <div className="page-side-heading">Social Media For Travellers...</div>
             <div className="search-bar">
             <button><img src={Search} alt="icon" /></button>
                 <input type="text"  placeholder="Search here..."/>
